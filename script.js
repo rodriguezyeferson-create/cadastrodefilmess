@@ -55,4 +55,16 @@ const filmes = [
     })
   }
 
+  mostrarFilmes(filmes)
+
+  function verDetalhes(titulo) {
+    FileSystemWritableFileStream.fire({
+        title: titulo,
+        Text: "mais informações do filme",
+        icon:"info"
+    })
+  }
+    
+  }
+
     
